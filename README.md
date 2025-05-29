@@ -1,1 +1,1 @@
-C++ is for Rust 
+C++ for Rust 
