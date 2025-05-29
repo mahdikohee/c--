@@ -47,4 +47,15 @@ double Average(int array[], int n) {
 }
 
 
-//
+//  just taking ref 
+#include<iostream>
+using namespace std ; 
+int Ref(int &number) ; 
+int main(void){
+    int value = 120 ; 
+    int result = Ref(value) ; 
+    cout<<"The value has multiplyed by 2 is "<<result<<endl;
+}
+int Ref(int &number){
+    return number * 2 ;
+}
