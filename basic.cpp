@@ -59,3 +59,29 @@ int main(void){
 int Ref(int &number){
     return number * 2 ;
 }
+
+
+
+//Simple constructor 
+#include <iostream>
+using namespace std;
+
+class Number {
+public:
+    int value;
+
+    Number(int x) {  // প্যারামিটারসহ কনস্ট্রাক্টর
+        value = x;
+    }
+
+    void show() {
+        cout << "Value is: " << value << endl;
+    }
+};
+
+int main() {
+    Number num(10);
+    num.show();
+    return 0;
+}
+
